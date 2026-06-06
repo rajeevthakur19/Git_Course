@@ -1,3 +1,4 @@
 with open('sample.text') as file:
     content = file.read()
-print(content)
+content_caps = content.upper()    
+print(content_caps)
